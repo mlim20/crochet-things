@@ -1,4 +1,14 @@
-.counter {
+body {
+  background-color:aliceblue;
+}
+
+.title {
+  font-size: 30px;
+  font-family: 'Courier New';
+  text-align: center;
+}
+
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +191,4 @@
     right: 0;
     border-right-color: var(--border);
   }
-}
+} */

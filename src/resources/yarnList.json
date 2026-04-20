@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Cotton Yarn",
+        "material": ["cotton"],
+        "brand": "Loops & Threads",
+        "imagePath": "../resources/yarn_placeholder.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Impeccable Solid Yarn",
+        "material": ["acrylic"],
+        "brand": "Loops & Threads",
+        "imagePath": "../resources/yarn_placeholder.jpg"
+    }
+]
