@@ -1,6 +1,11 @@
 body {
   background-color:aliceblue;
   font-family: Arial;
+  margin: 0;
+}
+
+main {
+  min-height: 100vh;
 }
 
 .title {

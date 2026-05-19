@@ -14,7 +14,8 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <h1 className="title">crochet things</h1>
+      <h1 className="title">crochet things</h1>
+      <main>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
@@ -22,7 +23,8 @@ function App() {
           <Route path="/materials" element={<Materials />}></Route>
           <Route path="/gallery" element={<Gallery />}></Route>
         </Routes>
-        <Footer />
+      </main>
+      <Footer />
       </BrowserRouter>
     </>
   )
