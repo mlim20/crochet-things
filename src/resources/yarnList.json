@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Classic Cotton Yarn",
         "material": ["cotton"],
         "brand": "Loops & Threads",
@@ -9,7 +8,6 @@
         "imagePath": "src/resources/classic-cotton_chambray.jpg"
     },
     {
-        "id": 2,
         "name": "Impeccable Solid Yarn",
         "material": ["acrylic"],
         "brand": "Loops & Threads",
@@ -18,7 +16,6 @@
         "imagePath": "src/resources/impeccable_smoke.jpg"
     },
     {
-        "id": 3,
         "name": "Patons Canadiana Yarn",
         "material": ["acrylic"],
         "brand": "Yarnspirations",
@@ -27,7 +24,6 @@
         "imagePath": "src/resources/patons-canadiana_royal.jpg"
     },
     {
-        "id": 4,
         "name": "Soft Classic Yarn",
         "material": ["acrylic"],
         "brand": "Loops & Threads",
@@ -36,7 +32,6 @@
         "imagePath": "src/resources/soft-classic_cornflower.jpg"
     },
     {
-        "id": 5,
         "name": "Vanna's Choice Yarn",
         "material": ["acrylic", "rayon"],
         "brand": "Lion Brand",

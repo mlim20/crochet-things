@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "name": "Ergonomic Crochet Hook",
         "brand": "Yarnology",
         "size": "H-5.00 mm",
@@ -8,7 +7,6 @@
         "imagePath": "src/resources/ergonomic-hook_h.jpg"
     },
     {
-        "id": 2,
         "name": "Anodized Aluminum Crochet Hook",
         "brand": "Loops & Threads",
         "size": "E-3.50 mm",

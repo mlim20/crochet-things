@@ -1,0 +1,14 @@
+[
+    {
+        "imagePath": "src/resources/yarn_placeholder.jpg",
+        "label": "placeholder image 1"
+    },
+    {
+        "imagePath": "src/resources/ms paint bear.png",
+        "label": "image 2 bear"
+    },
+    {
+        "imagePath": "src/resources/ms paint bird.png",
+        "label": "image 3 bird"
+    }
+]

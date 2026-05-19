@@ -12,8 +12,8 @@ const Materials = () => {
                 <h1>Yarn</h1>
                 <div className="materials-grid">
                     {
-                        yarnList.map((yarn) => (
-                            <div className="material-item" key={yarn.id}>
+                        yarnList.map((yarn, idx) => (
+                            <div className="material-item" key={idx}>
                                 <p className="material-label name">{yarn.name}</p>
                                 <p className="material-label subtitle">({yarn.colour})</p>
                                 <img className="material-image" src={yarn.imagePath} alt="(image error)"></img>
@@ -26,8 +26,8 @@ const Materials = () => {
                 <h1>Hooks</h1>
                 <div className="materials-grid">
                     {
-                        hooksList.map((hook) => (
-                            <div className="material-item" key={hook.id}>
+                        hooksList.map((hook, idx) => (
+                            <div className="material-item" key={idx}>
                                 <p className="material-label name">{hook.name}</p>
                                 <p className="material-label subtitle">Size: {hook.size}</p>
                                 <img className="material-image" src={hook.imagePath} alt="(image error)"></img>
@@ -40,8 +40,8 @@ const Materials = () => {
                 <h1>Other</h1>
                 <div className="materials-grid">
                     {
-                        toolsList.map((tool) => (
-                            <div className="material-item" key={tool.id}>
+                        toolsList.map((tool, idx) => (
+                            <div className="material-item" key={idx}>
                                 <p className="material-label name">{tool.name}</p>
                                 <img className="material-image" src={tool.imagePath} alt="(image error)"></img>
                             </div>

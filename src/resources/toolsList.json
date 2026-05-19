@@ -1,13 +1,11 @@
 [
     {
-        "id": 1,
         "name": "Yarn Guide",
         "brand": "Yarnology",
         "notes": "",
         "imagePath": "src/resources/yarn-guide.jpg"
     },
     {
-        "id": 2,
         "name": "Digital Row Counter",
         "brand": "Yarnology",
         "notes": "",
