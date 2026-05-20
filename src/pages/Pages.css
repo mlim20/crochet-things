@@ -31,11 +31,29 @@
   font-family: "Bowlby One SC", sans-serif;
   font-weight: 400;
   font-style: normal;
+  font-size: 40px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.about-container p {
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  margin: 0;
 }
 
 .about-section {
-  display: block;
-  padding: 10px;
+  display: flex;
+  padding: 20px;
+  min-height: 65vh;
+}
+
+.about-section#start {
+  background:#011b43;
+  color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-section#inciting {
@@ -61,8 +79,16 @@
   background:#a9d6e5;
 }
 
-.about-image {
-    width: 200px;
+.words {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+    max-width: 30vw;
+    max-height: 50vh;
     display: block;
     margin: auto;
 }
