@@ -8,7 +8,7 @@ const About = () => {
             <div className="about-section" id="inciting">
                 <h1>The Inciting Incident</h1>
                 <p>In 2013, I learned how to crochet using a crocheting kit from a bookstore. I've always loved arts and crafts, and I was excited to try a new medium.</p>
-                {/* <img className="about-image" src="src/resources/crochet_art.jpg" alt="(image error)"></img> */}
+                <img className="about-image" src="src/resources/crochet_art.jpg" alt="(image error)"></img>
             </div>
             <div className="about-section" id="training">
                 <h1>Training Arc</h1>
