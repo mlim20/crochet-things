@@ -45,7 +45,7 @@
 .about-section {
   display: flex;
   padding: 20px;
-  min-height: 65vh;
+  min-height: 100vh;
 }
 
 .about-section#start {
@@ -87,8 +87,8 @@
 }
 
 .image {
-    max-width: 30vw;
-    max-height: 50vh;
+    max-width: 40vw;
+    max-height: 60vh;
     display: block;
     margin: auto;
 }
