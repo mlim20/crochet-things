@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState, useRef } from 'react'
 import './Pages.css'
-import { motion, useScroll } from 'motion/react'
+import { motion, useScroll, useMotionValueEvent, useTransform } from 'motion/react'
 
 const About = () => {
+    // // Source: Motion docs
+    // const { ref } = useRef(null);
+    // const { scrollYProgress } = useScroll({
+    //     target: ref,
+    //     offset: ["end end", "start start"],
+    // });
+
+    // const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0, 1, 1, 0])
+
+    // // Check scrollYProgress
+    // useMotionValueEvent(scrollYProgress, "change", (latest) => {
+    //     console.log("Current scroll progress: ", latest)
+    // })
     const wordsVariants = {
         hidden: {opacity: 0, y: 50},
         visible: {opacity: 1, y: 0, transition: {duration: 0.5}}
@@ -14,12 +27,33 @@ const About = () => {
     }
 
     const imageVariantsLeft = {
-        hidden: {opacity: 0, x: 10},
+        hidden: {opacity: 0, x: -10},
         visible: {opacity: 1, x: 0, transition: {duration: 0.5}},
     }
 
     return (
         <div className="about-container">
+            
+            {/* <div className="about-section test" style={{background: '#013a63'}}>
+                <motion.div     className="words">
+                    <h1>test header</h1>
+                    <p>test paragraph</p>
+                </motion.div>
+            </div>
+            <div className="about-section test" style={{background: '#513a63'}} ref={ref}>
+                <motion.div     className="words" style={{ opacity: opacity }}>
+                    <h1>test header</h1>
+                    <p>test paragraph</p>
+                </motion.div>
+            </div>
+            <div className="about-section test" style={{background: '#913a63'}}>
+                <motion.div     className="words">
+                    <h1>test header</h1>
+                    <p>test paragraph</p>
+                </motion.div>
+            </div> */}
+
+
             <div className="about-section" id="start">
                 <h1>Here's my crochet journey...</h1>
             </div>
