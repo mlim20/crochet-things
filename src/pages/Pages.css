@@ -97,7 +97,9 @@
 /* Materials Page */
 .materials-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* Adapted from: https://stackoverflow.com/questions/55281598/css-grid-maximum-number-of-columns-without-media-queries */
+    --n: 3;
+    grid-template-columns: repeat(auto-fill, minmax(max(250px, 100%/var(--n)), 1fr));
 }
 
 .materials-section {
